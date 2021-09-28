@@ -18,7 +18,7 @@ spec:
       containers:
         - name: flaskapi
           image: flask-sample:latest
-          imagePullPolicy: Always
+          imagePullPolicy: Never
           ports:
             - containerPort: 5000
           env:

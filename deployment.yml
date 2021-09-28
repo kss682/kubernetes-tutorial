@@ -18,7 +18,7 @@ spec:
       containers:
       - name: mysql
         image: mysql:8.0
-        imagePullPolicy: Always
+        imagePullPolicy: Never
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
