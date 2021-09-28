@@ -29,6 +29,9 @@ spec:
                   key: db_root_password
             - name: db_name
               value: employee
+          resources:
+            limits:
+              memory: "100Mi"
 
 ---
 apiVersion: v1

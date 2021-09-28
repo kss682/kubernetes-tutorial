@@ -10,3 +10,4 @@ docker build . -t flask-sample:latest
 kubectl apply -f secrets.yml
 kubectl apply -f deployment.yml
 kubectl apply -f flask-deployment.yml
+kubectl apply -f hpa.yml
